@@ -1,0 +1,127 @@
+@charset "UTF-8";
+/*尾部服务*/
+.service{
+    width:100%;
+    padding: 60px 0 50px;
+}
+.service dl{
+    width:350px;
+    float:left;
+    margin-left:55px;
+}
+.service dl:first-child{
+    margin-left: 0;
+}
+.service dl dt{
+    width:56px;
+    height:56px;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background: url("../images/foot-feature.png") no-repeat 0 0;
+}
+.ser_title{
+    margin-bottom: 4px;
+    font-size: 16px;
+    line-height: 18px;
+}
+.ser_text{
+    color: #959595;
+}
+.service .dcsh dt{
+    background: url("../images/foot-feature.png") no-repeat 0 -56px;
+}
+.service .axph dt{
+    background: url("../images/foot-feature.png") no-repeat 0 -112px;
+}
+/*尾部收尾*/
+#footer_bar{
+    width:100%;
+    padding: 48px 0;
+    background-color: #333;
+    color: #c0c0c0;
+}
+.bar_top{
+    width:1160px;
+    margin:0 auto;
+    height:48px;
+}
+.foot_logo{
+    margin-right: 25px;
+    float: left;
+}
+.foot_text{
+    float: left;
+    width: 540px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.foot_icons{
+    float:right;
+    position:relative;
+}
+.foot_icons li{
+    font-size: 18px;
+    border: 1px solid #959595;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+    vertical-align: middle;
+}
+.foot_icons li:first-child{
+    margin-right: 10px;
+    line-height: 48px;
+    color: #ececec;
+    background: none;
+    border:none;
+}
+.phone{
+    width:48px;
+    height:48px;
+    background: url("../images/phone.png") no-repeat center;
+    background-size: 45%;
+}
+.wechat{
+    width:48px;
+    height:48px;
+    background: url("../images/weixin.png") no-repeat center;
+    background-size: 75%;
+}
+.sina{
+    width:48px;
+    height:48px;
+    background: url("../images/weibo.png") no-repeat center;
+    background-size: 75%;
+}
+.mail{
+    width:48px;
+    height:48px;
+    background: url("../images/email.png") no-repeat center;
+    background-size: 75%;
+}
+
+.bar_bottom{
+    width:1160px;
+    margin:0 auto;
+    padding-top: 46px;
+}
+.aboutUs{
+	
+}
+.aboutUs a{
+    color:#c0c0c0;
+    font-size: 14px;
+    display: inline-block;
+    margin:0 15px;
+}
+.aboutUs a:first-child{
+    margin-left:0;
+}
+.renzheng{
+    line-height: 26px;
+}
+.friends a{
+    font-size: 14px;
+    color:#c0c0c0;
+    margin-right: 10px;
+}
